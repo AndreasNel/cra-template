@@ -1,0 +1,31 @@
+{
+  "name": "@andreasnel/cra-template",
+  "version": "1.0.0",
+  "description": "My Create React App template to get a CI and dev friendly app up and running with minimal additional configuration needed.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasNel/cra-template.git"
+  },
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "husky",
+    "lint-staged",
+    "prettier",
+    "stylelint",
+    "editorconfig",
+    "eslint"
+  ],
+  "author": "Andreas Nel <nel.andreas1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndreasNel/cra-template/issues"
+  },
+  "homepage": "https://github.com/AndreasNel/cra-template#readme",
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

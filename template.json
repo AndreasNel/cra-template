@@ -1,0 +1,45 @@
+{
+    "package": {
+        "scripts": {
+            "format": "prettier --ignore-path .gitignore --write .",
+            "format:check": "prettier --ignore-path .gitignore --check .",
+            "lint": "eslint --ignore-path .gitignore src && stylelint --ignore-path .gitignore src",
+            "lint:staged": "lint-staged",
+            "postinstall": "husky install"
+        },
+        "importSort": {
+            ".js, .jsx, .ts, .tsx": {
+                "parser": "typescript",
+                "style": "eslint"
+            }
+        },
+        "dependencies": {
+            "@testing-library/jest-dom": "^5.11.4",
+            "@testing-library/react": "^11.1.0",
+            "@testing-library/user-event": "^12.1.10",
+            "@types/node": "^12.0.0",
+            "@types/react": "^17.0.0",
+            "@types/react-dom": "^17.0.0",
+            "@types/jest": "^26.0.15",
+            "typescript": "^4.1.2",
+            "web-vitals": "^1.0.1"
+
+        },
+        "devDependencies": {
+            "@typescript-eslint/eslint-plugin": "^4.16.1",
+            "@typescript-eslint/parser": "^4.16.1",
+            "eslint": "^7.21.0",
+            "eslint-config-prettier": "^8.1.0",
+            "eslint-plugin-react": "^7.22.0",
+            "eslint-plugin-react-hooks": "^4.2.0",
+            "husky": "^5.1.3",
+            "import-sort-style-eslint": "^6.0.0",
+            "lint-staged": "^10.5.4",
+            "prettier": "2.2.1",
+            "prettier-plugin-import-sort": "0.0.6",
+            "stylelint": "^13.12.0",
+            "stylelint-config-prettier": "^8.0.2",
+            "stylelint-config-standard": "^21.0.0"
+        }
+    }
+}
