@@ -1,6 +1,6 @@
 {
   "name": "@andreasnel/cra-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My Create React App template to get a CI and dev friendly app up and running with minimal additional configuration needed.",
   "repository": {
     "type": "git",
